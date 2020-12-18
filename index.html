@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarBucks</title>
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+</head>
+<body>
+    <section>
+        <div class="circulo"></div>
+        <header>
+            <a href="#" class="logo"><img src="images/logo-bk.png" alt="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </header>
+        <main class="conteudo">
+            <div class="caixa-texto">
+                <h2>
+                    o rei  <br>
+                so tem um  <span>burguer king &#128081 </span>
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, recusandae quaerat, assumenda cum cupiditate soluta totam corrupti pariatur voluptas nulla repellat maiores minus facilis dolorum quasi esse sed, iste amet.
+                </p>
+                <a href="#">Leia mais</a>
+            </div>
+            <div class="caixa-imagem">
+                <img src="images/WhopperDuplocomqueijo_thumb_0.png" alt="combo lanche" class="burguerking">
+                
+            </div>
+
+            <ul class="miniaturas">
+                <li><img src="images/BK_Web_VeggieBurguer_detail.png" alt="lanche vegano" onclick="TrocarImagem('images/WhopperDuplocomqueijo_thumb_0.png'); MudarCirculo('#db1e00')"></li>
+                <li><img src="images/WhopperDuplocomqueijo_thumb_0.png" alt="combo lanche" onclick="TrocarImagem('images/lanche-Atomico-3.0.png'); MudarCirculo('#964b00')"></li>
+                <li><img src="images/lanche-Atomico-3.0.png" alt="lanche atomico" onclick="TrocarImagem('images/BK_Web_VeggieBurguer_detail.png'); MudarCirculo('#00b929')"></li>
+            </ul>
+
+            <ul class="redes-sociais">
+                <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+            </ul>
+
+        </main>
+    </section>
+    <script src="js/funcoes.js"></script>
+</body>
+</html>
